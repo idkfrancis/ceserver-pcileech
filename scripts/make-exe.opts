@@ -1,0 +1,15 @@
+--name ceserver-pcileech
+--type msi
+-i ..\target\jpackage-temp
+-d ..\target\jpackage-out
+--runtime-image ..\target\jpackage-runtime
+--copyright "Copyright 2021-2022 Isabella Flores"
+--vendor "Isabella Flores"
+--license-file ..\LICENSE
+--win-dir-chooser
+--win-menu
+--win-menu-group "Isabella Flores"
+--win-per-user-install
+--win-shortcut
+--win-upgrade-uuid 9fc35cb4-5aa1-4307-9a59-fe4248e40ddc
+--main-jar ceserver-pcileech.jar
